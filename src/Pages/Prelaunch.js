@@ -8,6 +8,7 @@ const StyledBody = styled.div`
 background: #E9F0FF;
 background - size: cover;
 min-height: 100vh;
+padding-bottom: 2rem;
 `
 
 const Prelaunch = () => {
