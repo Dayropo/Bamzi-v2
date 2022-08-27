@@ -1,11 +1,11 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom"
 
 const Layout = () => {
-    return ( 
-        <main>
-            <Outlet />
-        </main>
-     );
+  return (
+    <main style={{ minHeight: "100vh" }}>
+      <Outlet />
+    </main>
+  )
 }
- 
-export default Layout;
+
+export default Layout
